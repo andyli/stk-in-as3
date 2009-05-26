@@ -265,7 +265,7 @@ package net.onthewings.stk
 		protected var tempVectorP_:Vector3D = new Vector3D();
 		protected var tempVector_:Vector3D = new Vector3D();
 		protected var onepole_:OnePole = new OnePole();
-		protected var noise_:Noice = new Noice();
+		protected var noise_:Noise = new Noise();
 		protected var envelope_:Envelope = new Envelope();
 		protected var can_:Sphere = new Sphere() // Declare a Spherical "can".
 		protected var pea_:Sphere = new Sphere(); // One spherical "pea",

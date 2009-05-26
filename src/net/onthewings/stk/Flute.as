@@ -208,7 +208,7 @@ package net.onthewings.stk
 		protected var jetTable_:JetTable = new JetTable();
 		protected var filter_:OnePole = new OnePole();
 		protected var dcBlock_:PoleZero = new PoleZero();
-		protected var noise_:Noice = new Noice();
+		protected var noise_:Noise = new Noise();
 		protected var adsr_:ADSR = new ADSR();
 		protected var vibrato_:SineWave = new SineWave();
 		protected var length_:Number;

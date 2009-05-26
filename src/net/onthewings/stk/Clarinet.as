@@ -172,7 +172,7 @@ package net.onthewings.stk
 		protected var reedTable_:ReedTable = new ReedTable();
 		protected var filter_:OneZero = new OneZero();
 		protected var envelope_:Envelope = new Envelope();
-		protected var noise_:Noice = new Noice();
+		protected var noise_:Noise = new Noise();
 		protected var vibrato_:SineWave = new SineWave();
 		protected var length_:Number;
 		protected var outputGain_:Number;
