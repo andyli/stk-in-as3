@@ -1,30 +1,30 @@
 #summary The basic usage of instrument classes.
 
 =Available instruments=
-The instrument classes are the subclasses of Instrmnt, as shown in the [http://ccrma.stanford.edu/software/stk/classstk_1_1Instrmnt.html documentation]. Currently a number of instruments is available to be used. They includes:
-  * BandedWG
-  * BlowBotl
-  * BlowHole
-  * Bowed
-  * Brass
-  * Clarinet
-  * Flute
-  * Mesh2D
-  * Plucked
-  * PluckTwo (abstract class)
-  * Resonate
-  * Saxofony
-  * Sitar
-  * SitfKarp
-  * Shakers
-  * Whistle
+The instrument classes are the subclasses of `Instrmnt`, as shown in the [http://ccrma.stanford.edu/software/stk/classstk_1_1Instrmnt.html documentation]. Currently a number of instruments is available to be used. They includes:
+  * `BandedWG`
+  * `BlowBotl`
+  * `BlowHole`
+  * `Bowed`
+  * `Brass`
+  * `Clarinet`
+  * `Flute`
+  * `Mesh2D`
+  * `Plucked`
+  * `PluckTwo` (abstract class)
+  * `Resonate`
+  * `Saxofony`
+  * `Sitar`
+  * `SitfKarp`
+  * `Shakers`
+  * `Whistle`
 
 There are other classes that depend on loading sound files, more works are needed to be done in order to port them.<br />
 [http://blog.onthewings.net/tag/stk-in-as3/ Some of the instruments are demoed here.]
 
-=Generate ByteArray to be used as playback=
-Basically you continuously call the tick() method which available from all the instrument classes. The method return a number which is the value of the time slice of the wave generated. You then write that into the ByteArray.<br />
-For example, if you want to create a ByteArray that holds 2 seconds of Flute sound at A4 (440Hz):
+=Generate `ByteArray` to be used as playback=
+Basically you continuously call the `tick()` method which available from all the instrument classes. The method return a number which is the value of a sample of the wave generated. You then write that into the `ByteArray`.<br />
+For example, if you want to create a `ByteArray` that holds 2 seconds of `Flute` playing at A4 (440Hz):
 {{{
 var soundBytes:ByteArray = new ByteArray();
 var inst:Flute = new Flute(40); //give 40 as the lowest frequency it will sound
