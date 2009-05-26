@@ -13,7 +13,7 @@ package net.onthewings.stk
 			by Perry R. Cook and Gary P. Scavone, 1995 - 2007.
 	*/
 	/***************************************************/
-	public class Noice extends Generator
+	public class Noise extends Generator
 	{
 		//! Default constructor which seeds the random number generator with the system time.
 		//! Constructor which seeds the random number generator with a given seed.
@@ -21,7 +21,7 @@ package net.onthewings.stk
 			If the seed value is zero, the random number generator is
 			seeded with the system time.
 		*/
-		public function Noice(...args):void	{
+		public function Noise(...args):void	{
 			super();
 			if (!args || args.length == 0){
 				// Seed the random number generator with system time.

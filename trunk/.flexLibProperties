@@ -1,41 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <flexLibProperties version="1">
-<includeClasses>
-<classEntry path="net.onthewings.stk.ADSR"/>
-<classEntry path="net.onthewings.stk.BandedWG"/>
-<classEntry path="net.onthewings.stk.BiQuad"/>
-<classEntry path="net.onthewings.stk.BlowBotl"/>
-<classEntry path="net.onthewings.stk.BlowHole"/>
-<classEntry path="net.onthewings.stk.BowTable"/>
-<classEntry path="net.onthewings.stk.Bowed"/>
-<classEntry path="net.onthewings.stk.Brass"/>
-<classEntry path="net.onthewings.stk.Clarinet"/>
-<classEntry path="net.onthewings.stk.Delay"/>
-<classEntry path="net.onthewings.stk.DelayA"/>
-<classEntry path="net.onthewings.stk.DelayL"/>
-<classEntry path="net.onthewings.stk.Envelope"/>
-<classEntry path="net.onthewings.stk.Filter"/>
-<classEntry path="net.onthewings.stk.Flute"/>
-<classEntry path="net.onthewings.stk.Generator"/>
-<classEntry path="net.onthewings.stk.Instrmnt"/>
-<classEntry path="net.onthewings.stk.JetTable"/>
-<classEntry path="net.onthewings.stk.Mesh2D"/>
-<classEntry path="net.onthewings.stk.Noice"/>
-<classEntry path="net.onthewings.stk.OnePole"/>
-<classEntry path="net.onthewings.stk.OneZero"/>
-<classEntry path="net.onthewings.stk.PoleZero"/>
-<classEntry path="net.onthewings.stk.ReedTable"/>
-<classEntry path="net.onthewings.stk.SineWave"/>
-<classEntry path="net.onthewings.stk.Sphere"/>
-<classEntry path="net.onthewings.stk.Stk"/>
-<classEntry path="net.onthewings.stk.StkError"/>
-<classEntry path="net.onthewings.stk.StkFrames"/>
-<classEntry path="net.onthewings.stk.Vector3D"/>
-<classEntry path="net.onthewings.stk.Whistle"/>
-<classEntry path="net.onthewings.stk.WvIn"/>
-<classEntry path="net.onthewings.stk._Function"/>
-<classEntry path="net.onthewings.utils.SoundUtil"/>
-</includeClasses>
-<includeResources/>
-<namespaceManifests/>
+  <includeClasses>
+    <classEntry path="net.onthewings.stk.StkError"/>
+    <classEntry path="net.onthewings.utils.SoundUtil"/>
+    <classEntry path="net.onthewings.stk.PoleZero"/>
+    <classEntry path="net.onthewings.stk.JetTable"/>
+    <classEntry path="net.onthewings.stk.Instrmnt"/>
+    <classEntry path="net.onthewings.stk.Flute"/>
+    <classEntry path="net.onthewings.stk.Generator"/>
+    <classEntry path="net.onthewings.stk.BowTable"/>
+    <classEntry path="net.onthewings.stk.OnePole"/>
+    <classEntry path="net.onthewings.stk.Bowed"/>
+    <classEntry path="net.onthewings.stk.Saxofony"/>
+    <classEntry path="net.onthewings.stk.Noise"/>
+    <classEntry path="net.onthewings.stk.Filter"/>
+    <classEntry path="net.onthewings.stk.StkFrames"/>
+    <classEntry path="net.onthewings.stk.Whistle"/>
+    <classEntry path="net.onthewings.stk.Clarinet"/>
+    <classEntry path="net.onthewings.stk._Function"/>
+    <classEntry path="net.onthewings.stk.Resonate"/>
+    <classEntry path="net.onthewings.stk.Plucked"/>
+    <classEntry path="net.onthewings.stk.SineWave"/>
+    <classEntry path="net.onthewings.stk.Stk"/>
+    <classEntry path="net.onthewings.stk.DelayL"/>
+    <classEntry path="net.onthewings.stk.Envelope"/>
+    <classEntry path="net.onthewings.stk.BiQuad"/>
+    <classEntry path="net.onthewings.stk.BandedWG"/>
+    <classEntry path="net.onthewings.stk.Mesh2D"/>
+    <classEntry path="net.onthewings.stk.ADSR"/>
+    <classEntry path="net.onthewings.stk.ReedTable"/>
+    <classEntry path="net.onthewings.stk.DelayA"/>
+    <classEntry path="net.onthewings.stk.Delay"/>
+    <classEntry path="net.onthewings.stk.Shakers"/>
+    <classEntry path="net.onthewings.stk.WvIn"/>
+    <classEntry path="net.onthewings.stk.BlowHole"/>
+    <classEntry path="net.onthewings.stk.PluckTwo"/>
+    <classEntry path="net.onthewings.stk.Sphere"/>
+    <classEntry path="net.onthewings.stk.OneZero"/>
+    <classEntry path="net.onthewings.stk.Vector3D"/>
+    <classEntry path="net.onthewings.stk.Brass"/>
+    <classEntry path="net.onthewings.stk.BlowBotl"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
 </flexLibProperties>
