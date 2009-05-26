@@ -37,8 +37,8 @@ for (var i:Number = 0 ; i < 44100 * 2 ; ++i) { //Flash need 44100 samples per se
 //the 2 second flute sound is finished. If you want to smoothly turn off the note, see below.
 
 inst.noteOff(0.3); //amplitude=0.3
-for (var i:Number = 0 ; i < 44100 * 0.5 ; ++i) { //add 0.5 second to let the sound become completely silent
-	var val:Number = inst.tick();
+for (i = 0 ; i < 44100 * 0.5 ; ++i) { //add 0.5 second to let the sound become completely silent
+	val = inst.tick();
 	soundBytes.writeFloat(val);
 	soundBytes.writeFloat(val);
 }
