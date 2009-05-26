@@ -18,6 +18,7 @@
     <classEntry path="net.onthewings.stk.Whistle"/>
     <classEntry path="net.onthewings.stk.Clarinet"/>
     <classEntry path="net.onthewings.stk._Function"/>
+    <classEntry path="net.onthewings.stk.StifKarp"/>
     <classEntry path="net.onthewings.stk.Resonate"/>
     <classEntry path="net.onthewings.stk.Plucked"/>
     <classEntry path="net.onthewings.stk.SineWave"/>
@@ -40,6 +41,7 @@
     <classEntry path="net.onthewings.stk.Vector3D"/>
     <classEntry path="net.onthewings.stk.Brass"/>
     <classEntry path="net.onthewings.stk.BlowBotl"/>
+    <classEntry path="net.onthewings.stk.Sitar"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>
