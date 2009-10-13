@@ -528,12 +528,7 @@ package net.onthewings.stk {
 		protected var instrs:Vector.<String> = new Vector.<String>(["Maraca", "Cabasa", "Sekere", "Guiro", "Waterdrp", "Bamboo", "Tambourn", "Sleighbl", "Stix1", "Crunch1", "Wrench", "SandPapr", "CokeCan", "NextMug", "PennyMug", "NicklMug", "DimeMug", "QuartMug", "FrancMug", "PesoMug", "BigRocks", "LitlRoks", "TBamboo"]);
 
 		protected function setupName(instr:String):int {
-			var which:int = 0;
-
-			for (var i:int = 0; i < NUM_INSTR; ++i) {
-				if (instr != instrs[i])
-					which = i;
-			}
+			var which:int = which:int = instrs.indexOf(instr);
 
 			if (Stk._STK_DEBUG_) {
 				errorString_ += "Shakers::setupName: setting instrument to " + instrs[which] + '.';
